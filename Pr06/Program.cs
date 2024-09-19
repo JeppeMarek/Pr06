@@ -28,6 +28,7 @@ class Program
         */ 
        
         // Opgave 4.2A
+        // Beder om input til gruppe størrelse og tjekker om det er en int
         Console.WriteLine("Enter size of group:");
         int groupSize = 0;
         try
@@ -38,11 +39,12 @@ class Program
         {
             Console.WriteLine("Please eneter a number");
         }
-       
+       // variabler initialiseres
         int[] groupMember = new int[groupSize];
         int[] ageOfMember = new int[groupSize];
         int totalAge = 0;
         int averageAge = totalAge / groupSize;
+        // Spørger om input til hver medlems alder og tjekker om det er int
         for (int i = 0; i < ageOfMember.Length; i++)
         {
             groupMember[i] = i;
@@ -54,6 +56,7 @@ class Program
                 Console.WriteLine("Please enter a whole number");
             }
             Console.WriteLine($"Group member: {groupMember[i]} is {ageOfMember[i]}");
+            // Plusser hver gruppes alder sammen og dividerer dem med gruppe størrelse for at få gennemsnitsalderen
             for (int size = i; size < groupSize; size++)
             {
                 totalAge += ageOfMember[size];
@@ -62,6 +65,7 @@ class Program
             Console.WriteLine($"Average age: {averageAge}");
             
         }
+        // Spørger efter hvilken alder brugeren vil søge efter i gruppen
         {
             Console.WriteLine("Enter age that you want to find in group age");
             int sameAge = int.Parse(Console.ReadLine());
@@ -71,8 +75,10 @@ class Program
                 {
                     Console.WriteLine("Group member: {0} has the age: ({1}) that you want to find in group age",
                         groupMember[j], ageOfMember[j]);
+                    // stopper loopet når første medlem er fundet med alderen
                     break;
                 }
+                // Når den har kørt hele gruppen igennem og ikke har fundet alderen der ledes efter skriver den til console
                 if (j == groupSize - 1)
                 {
                     Console.WriteLine("No group member found with that age");
