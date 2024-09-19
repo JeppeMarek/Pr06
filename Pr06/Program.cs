@@ -53,13 +53,10 @@ class Program
             } catch (FormatException) {
                 Console.WriteLine("Please enter a whole number");
             }
-            
-            // string message = "Group member {0} is {1} years old";
-            //Console.WriteLine(message, groupMember[i], ageOfMember[i]);
             Console.WriteLine($"Group member: {groupMember[i]} is {ageOfMember[i]}");
-            for (int size = 0; size < groupSize; size++)
+            for (int size = i; size < groupSize; size++)
             {
-                totalAge += ageOfMember[i];
+                totalAge += ageOfMember[size];
                 averageAge = totalAge / groupSize;
             }
             Console.WriteLine($"Average age: {averageAge}");
