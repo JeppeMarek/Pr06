@@ -1,0 +1,14 @@
+/Users/jeppehmarek/RiderProjects/Pr06/Pr06/obj/Debug/net8.0/Pr06.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeppehmarek/RiderProjects/Pr06/Pr06/obj/Debug/net8.0/Pr06.AssemblyInfoInputs.cache
+/Users/jeppehmarek/RiderProjects/Pr06/Pr06/obj/Debug/net8.0/Pr06.AssemblyInfo.cs
+/Users/jeppehmarek/RiderProjects/Pr06/Pr06/obj/Debug/net8.0/Pr06.csproj.CoreCompileInputs.cache
+/Users/jeppehmarek/RiderProjects/Pr06/Pr06/bin/Debug/net8.0/Pr06
+/Users/jeppehmarek/RiderProjects/Pr06/Pr06/bin/Debug/net8.0/Pr06.deps.json
+/Users/jeppehmarek/RiderProjects/Pr06/Pr06/bin/Debug/net8.0/Pr06.runtimeconfig.json
+/Users/jeppehmarek/RiderProjects/Pr06/Pr06/bin/Debug/net8.0/Pr06.dll
+/Users/jeppehmarek/RiderProjects/Pr06/Pr06/bin/Debug/net8.0/Pr06.pdb
+/Users/jeppehmarek/RiderProjects/Pr06/Pr06/obj/Debug/net8.0/Pr06.dll
+/Users/jeppehmarek/RiderProjects/Pr06/Pr06/obj/Debug/net8.0/refint/Pr06.dll
+/Users/jeppehmarek/RiderProjects/Pr06/Pr06/obj/Debug/net8.0/Pr06.pdb
+/Users/jeppehmarek/RiderProjects/Pr06/Pr06/obj/Debug/net8.0/Pr06.genruntimeconfig.cache
+/Users/jeppehmarek/RiderProjects/Pr06/Pr06/obj/Debug/net8.0/ref/Pr06.dll
